@@ -1,0 +1,68 @@
+TERMINOLOGÍA Y NOTACIÓN DE CONJUNTOS:
+Un conjunto es una colección desordenada de objetos. Ejemplo: (X, E, S)
+
+A ⊆ B. Esto se lee como A es un subconjunto de B. Esto significa que A y B son conjuntos,
+y cada elemento de A es también un elemento de B.
+
+A = B. Dos conjuntos son iguales si contienen exactamente los mismos elementos.
+(No existe orden entre los elementos de un conjunto).
+
+Una forma conveniente de demostrar que A y B son iguales es demostrar que cada uno es un
+subconjunto del otro. La demostración suele constar de dos partes:
+    1. una prueba de que A ⊆ B
+    2. una prueba de que B ⊆ A
+
+EXPRESIONES CONJUNTAS:
+{ x ∈ R : x >= 0}
+Lo anterior se lee como: "El conjunto formado por todos los elementos x del conjunto de los números reales
+números tales que x es mayor o igual a 0." Los dos puntos aquí representan
+"tal que."
+
+La expresión de conjunto consta de dos partes:
+La parte antes de los dos puntos especifica de dónde provienen los elementos del conjunto.
+e introduce una o varias variables que se pueden utilizar en la segunda parte. En
+En este ejemplo, la R indica que X pertenece a los números reales.
+
+
+La parte después de los dos puntos:
+Esto proporciona una regla que restringe qué elementos se especifican en la primera parte
+De hecho, logran entrar en el conjunto. Esta expresión del conjunto tiene dos partes.
+La parte antes de los dos puntos.
+
+La expresión análoga de Python es una comprensión de conjunto:
+>>> S = { -4, 4, -3, -2, 2, -1, 1, 0}
+>>> {x para x en S si x >= 0}
+
+Las comprensiones de conjuntos de Python coinciden bastante con la notación matemática.
+
+EXPRESIONES CONJUNTAS - CONVENCIÓN
+Entonces, en matemáticas:
+
+      { x ∈ R : x >= 0 }
+
+Pero a menudo omitimos la parte "∈ R", con el contexto implícito.
+Se considera claro qué conjunto de valores toma x.
+
+      {x : x >= 0}
+
+
+x: x² - 5/6x + 1/6 = 0 }
+
+Este es el conjunto de todos los X tales que esta ecuación se cumple, y sólo tiene
+estas dos soluciones: 1/2 y (algo más que no pude ver en la diapositiva de la clase).
+
+TERMINOLOGÍA Y NOTACIÓN DE CONJUNTOS
+Cardinalidad: Si un conjunto es finito, utilizamos barras verticales para indicar cuántos
+Elementos que tiene. Por ejemplo, el conjunto {A, O, 8, I} tiene cardinalidad 4.
+Sería |4|.
+
+Producto cartesiano
+A x B es el conjunto de todos los pares (a, b) donde a ∈ A y b ∈ B. Por ejemplo:
+
+      para A = {1, 2} y B = {w, x, y, z}, A x B es
+      {{1, w}, {2, w}, {1, x}, {2, x}, {1, y}, {2, y}, {1, z}, {2, z}}
+
+Entonces, esto tiene un producto cartesiano de 8. Básicamente, multiplicas la cardinalidad de
+un conjunto por la cardinalidad de otro.
+
+Si A y B son conjuntos finitos, entonces |A x B| = |A| x |B|.
